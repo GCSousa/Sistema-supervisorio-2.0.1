@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <ProjectGuid>{05BADF4A-3100-4379-BD34-AF158D18AE28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SupervisorioDana</RootNamespace>
+    <AssemblyName>SupervisorioDana</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <StartupObject>SupervisorioDana.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Carregando.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carregando.Designer.cs">
+      <DependentUpon>Carregando.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carregando1920x1080.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carregando1920x1080.Designer.cs">
+      <DependentUpon>Carregando1920x1080.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conferencia_de_resolucao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conferencia_de_resolucao.Designer.cs">
+      <DependentUpon>conferencia_de_resolucao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisualizarNotas.cs" />
+    <Compile Include="FrmVisualizarNotas.Designer.cs" />
+    <Compile Include="FrmLoginManutencao.cs" />
+    <Compile Include="FrmLoginManutencao.Designer.cs" />
+    <Compile Include="FrmAvisoManutencao.cs" />
+    <Compile Include="FrmAvisoManutencao.Designer.cs" />
+    <Compile Include="FrmAlarmes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlarmes.Designer.cs">
+      <DependentUpon>FrmAlarmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlarmes1920x1080.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlarmes1920x1080.Designer.cs">
+      <DependentUpon>FrmAlarmes1920x1080.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastro.Designer.cs">
+      <DependentUpon>FrmCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastro1920x1080.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastro1920x1080.Designer.cs">
+      <DependentUpon>FrmCadastro1920x1080.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfiguracoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfiguracoes.Designer.cs">
+      <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfiguracoes1920x1080.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfiguracoes1920x1080.Designer.cs">
+      <DependentUpon>FrmConfiguracoes1920x1080.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDadosDosCarros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDadosDosCarros.Designer.cs">
+      <DependentUpon>FrmDadosDosCarros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDadosDosCarros1920x1080.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDadosDosCarros1920x1080.Designer.cs">
+      <DependentUpon>FrmDadosDosCarros1920x1080.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEntrada.Designer.cs">
+      <DependentUpon>FrmEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEntrada1920x1080.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEntrada1920x1080.Designer.cs">
+      <DependentUpon>FrmEntrada1920x1080.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestorManutencao.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="visual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visual.Designer.cs">
+      <DependentUpon>visual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="visual1920x1080.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visual1920x1080.Designer.cs">
+      <DependentUpon>visual1920x1080.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carregando.resx">
+      <DependentUpon>Carregando.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carregando1920x1080.resx">
+      <DependentUpon>Carregando1920x1080.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conferencia_de_resolucao.resx">
+      <DependentUpon>conferencia_de_resolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisualizarNotas.resx" />
+    <EmbeddedResource Include="FrmLoginManutencao.resx" />
+    <EmbeddedResource Include="FrmAvisoManutencao.resx" />
+    <EmbeddedResource Include="FrmAlarmes.resx">
+      <DependentUpon>FrmAlarmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlarmes1920x1080.resx">
+      <DependentUpon>FrmAlarmes1920x1080.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastro.resx">
+      <DependentUpon>FrmCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastro1920x1080.resx">
+      <DependentUpon>FrmCadastro1920x1080.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfiguracoes.resx">
+      <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfiguracoes1920x1080.resx">
+      <DependentUpon>FrmConfiguracoes1920x1080.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDadosDosCarros.resx">
+      <DependentUpon>FrmDadosDosCarros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDadosDosCarros1920x1080.resx">
+      <DependentUpon>FrmDadosDosCarros1920x1080.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEntrada.resx">
+      <DependentUpon>FrmEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEntrada1920x1080.resx">
+      <DependentUpon>FrmEntrada1920x1080.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="visual.resx">
+      <DependentUpon>visual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="visual1920x1080.resx">
+      <DependentUpon>visual1920x1080.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Sharp7">
+      <HintPath>..\..\..\Downloads\superv pint\superv pint\PREVISIO\PREVISIO\Release\Sharp7.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.32\System.Drawing.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+  </ItemGroup>
+</Project>
